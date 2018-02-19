@@ -1,7 +1,13 @@
 body {
 	background-image : asset-data-url("fond_formulaire.jpg");
     background-size: cover;
+    font-family: 'Roboto', sans-serif;
 	}
+
+input {
+	width: 75%;
+	padding: 15px;
+}
 
 .container {
 	width: 100vw;
@@ -28,10 +34,11 @@ body {
 }
 */
 .intro {
-	background-color: rgba(18, 122, 241, 0.9 );
+	background-color: rgba(18, 122, 241, 0.95 );
 	padding: 15px;
 	width: 55%;
 	text-color: #FFF;
+	padding: 30px;
 }
 
 .form {
@@ -41,10 +48,16 @@ body {
 
 .top {
 	height : 70%;
+	padding-left: 30px;
+}
+
+.action {
+	padding-bottom: 5px;
 }
 
 .bottom {
 	text-align: center;
 	background-color: #b4b4b4;
 	height : 30%;
+	padding: 10px;
 }
