@@ -1,0 +1,50 @@
+body {
+	background-image : asset-data-url("fond_formulaire.jpg");
+    background-size: cover;
+	}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.global {
+	width: 50vw;
+    height: 55vh;
+    border-radius: 2% 2% 2% 2%;
+	display : flex;
+	justify-content: space-evenly;
+	overflow: hidden;
+}
+/*
+.background {
+	background-image : asset-data-url("fond_formulaire.jpg");
+	background-size: cover;
+	opacity: 0.9;
+}
+*/
+.intro {
+	background-color: rgba(18, 122, 241, 0.9 );
+	padding: 15px;
+	width: 55%;
+	text-color: #FFF;
+}
+
+.form {
+	background-color: #FFF;
+	width: 45%;
+}
+
+.top {
+	height : 70%;
+}
+
+.bottom {
+	text-align: center;
+	background-color: #b4b4b4;
+	height : 30%;
+}
